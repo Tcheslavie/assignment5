@@ -1,10 +1,8 @@
 package ac.za.cput.domain;
 
 public class Candidate {
-    private int candidateId;
-    private String fname;
-    private String lname;
-    private int partyId;
+    private int candidateId, partyId;
+    private String fname, lname;
 
     private Candidate(){}
     private Candidate(Builder builder)
@@ -27,14 +25,13 @@ public class Candidate {
 
     public static class Builder
     {
-        private int candidateId;
-        private String fname;
-        private String lname;
-        private int partyId;
+        private int candidateId, partyId;
+        private String fname, lname;
 
-        public Builder(int candidateId)
+        public Builder candidateId(int candidateId)
         {
             this.candidateId = candidateId;
+            return this;
         }
         public Builder fname(String fname){
             this.fname = fname;

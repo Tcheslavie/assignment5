@@ -1,12 +1,11 @@
 package ac.za.cput.domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
-    private String idnumber;
-    private String uname;
-    private String lname;
-    private String address;
-    private int phone;
-    private boolean hasVoted;
+    private String idnumber,uname,lname;
+    private List<UserVoting> votingRecord;
 
     public String getIdnumber(){
         return this.idnumber;
@@ -14,36 +13,24 @@ public class User {
     public String getName(){
         return this.uname+" "+this.lname;
     }
-    public String getAddress()
-    {
-        return this.address;
+
+    public List<UserVoting> getVotingRecord() {
+        return votingRecord;
     }
-    public int getPhone(){
-        return this.phone;
-    }
-    public boolean getVoted()
-    {
-        return this.hasVoted;
-    }
+
     private User(){}
 
     private User(Builder builder)
     {
+        this.votingRecord = new ArrayList<>();
         this.idnumber = builder.idnumber;
         this.uname = builder.uname;
         this.lname = builder.lname;
-        this.address = builder.address;
-        this.phone = builder.phone;
-        this.hasVoted = builder.hasVoted;
+        this.votingRecord = builder.votingRecord;
     }
     public static class Builder{
-        private String idnumber;
-        private String uname;
-        private String lname;
-        private String address;
-        private int phone;
-        private boolean hasVoted;
-
+        private String idnumber,uname,lname;
+        private List<UserVoting> votingRecord = new ArrayList<>();
 
         public Builder idnumber(String idnumber){
             this.idnumber = idnumber;
@@ -59,18 +46,10 @@ public class User {
             return this;
         }
 
-        public Builder address(String address){
-            this.address = address;
-            return this;
-        }
-
-        public Builder phone(int phone){
-            this.phone = phone;
-            return this;
-        }
-
-        public Builder hasVoted(boolean hasVoted){
-            this.hasVoted = hasVoted;
+        public Builder votingRecord(UserVoting...votingRecord)
+        {
+            for(UserVoting r: votingRecord)
+                this.votingRecord.add(r);
             return this;
         }
 
