@@ -38,7 +38,7 @@ public class UserDemographics {
         }
         public Builder race(String race)
         {
-            this.idnumber = race;
+            this.race = race;
             return this;
         }
         public UserDemographics build()

@@ -2,6 +2,7 @@ package ac.za.cput.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class User {
     private String idnumber,uname,lname;
@@ -56,5 +57,19 @@ public class User {
         public User build(){
             return new User(this);
         }
+
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+        User user = (User) o;
+        return Objects.equals(getIdnumber(), user.getIdnumber());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getIdnumber());
     }
 }

@@ -1,7 +1,7 @@
 package ac.za.cput.domain;
 
 public class Candidate {
-    private int candidateId, partyId;
+    private String candidateId, partyId;
     private String fname, lname;
 
     private Candidate(){}
@@ -12,23 +12,23 @@ public class Candidate {
         this.lname = builder.lname;
         this.partyId = builder.partyId;
     }
-    public int getCandidateId(){
+    public String getCandidateId(){
         return this.candidateId;
     }
     public String getName(){
         return this.fname+" "+this.lname;
     }
-    public int getPartyId()
+    public String getPartyId()
     {
         return this.partyId;
     }
 
     public static class Builder
     {
-        private int candidateId, partyId;
+        private String candidateId, partyId;
         private String fname, lname;
 
-        public Builder candidateId(int candidateId)
+        public Builder candidateId(String candidateId)
         {
             this.candidateId = candidateId;
             return this;
@@ -41,7 +41,7 @@ public class Candidate {
             this.lname = lname;
             return this;
         }
-        public Builder partyId(int partyId){
+        public Builder partyId(String partyId){
             this.partyId = partyId;
             return this;
         }

@@ -10,7 +10,7 @@ public class UserContactFactoryTest {
 
     @Test
     public void getUserContact() {
-        UserContact uf = UserContactFactory.getUserContact("123456778", "", "");
+        UserContact uf = UserContactFactory.getUserContact("123456789","123456778", "", "");
         Assert.assertNotNull(uf.getCellPhone());
     }
 }
