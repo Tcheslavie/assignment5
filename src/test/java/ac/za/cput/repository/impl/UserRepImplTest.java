@@ -24,6 +24,7 @@ public class UserRepImplTest {
         String idnr = "1234567891234";
         User u = UserFactory.getUser(idnr, "John", "Bush");
         repository.create(u);
+        Assert.assertEquals(1, repository.getAll().size());
     }
 
     @Test
