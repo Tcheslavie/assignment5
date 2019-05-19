@@ -2,10 +2,11 @@ package ac.za.cput.repository.impl;
 
 import ac.za.cput.domain.UserDemographics;
 import ac.za.cput.repository.UserDemographicsRep;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
-
+@Repository("UserDemographicsRep")
 public class UserDemographicsRepImpl implements UserDemographicsRep {
     private static UserDemographicsRep repository = null;
     private Set<UserDemographics> udemos;

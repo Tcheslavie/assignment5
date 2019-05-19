@@ -2,11 +2,12 @@ package ac.za.cput.repository.impl;
 
 import ac.za.cput.domain.UserContact;
 import ac.za.cput.repository.UserContactRep;
+import org.springframework.stereotype.Repository;
 
 import javax.jws.soap.SOAPBinding;
 import java.util.HashSet;
 import java.util.Set;
-
+@Repository("UserContactRep")
 public class UserContactRepImpl implements UserContactRep {
     private static UserContactRep repository = null;
     private Set<UserContact> contacts;

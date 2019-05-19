@@ -2,10 +2,11 @@ package ac.za.cput.repository.impl;
 
 import ac.za.cput.domain.UserAddress;
 import ac.za.cput.repository.UserAddressRep;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashSet;
 import java.util.Set;
-
+@Repository("UserAddressRep")
 public class UserAddressRepImpl implements UserAddressRep {
     private static UserAddressRep repository = null;
     private Set<UserAddress> addresses;

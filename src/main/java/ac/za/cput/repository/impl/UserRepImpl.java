@@ -2,11 +2,13 @@ package ac.za.cput.repository.impl;
 
 import ac.za.cput.domain.User;
 import ac.za.cput.repository.UserRepository;
+import org.springframework.stereotype.Repository;
 
 import javax.jws.soap.SOAPBinding;
 import java.util.HashSet;
 import java.util.Set;
 
+@Repository("UserRep")
 public class UserRepImpl implements UserRepository{
 
     private static UserRepImpl repository = null;

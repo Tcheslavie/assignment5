@@ -2,71 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d2f40c-1461-424c-a85c-d7fc51b947dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evoting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/evoting.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/Party.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserDemographics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserDemographics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/CandidateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/CandidateFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/PartyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/PartyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserContactFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserContactFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/CandidateFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/CandidateFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/ElectionFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/ElectionFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/PartyFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/PartyFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserContactFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserContactFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Candidate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Candidate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Candidate$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Candidate$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Candidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Election$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Election$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Election$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Election$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Election.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Election.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/ElectionResult$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/ElectionResult$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/ElectionResult$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/ElectionResult$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/ElectionResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/ElectionResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Party$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Party$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Party$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Party$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Party.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/Party.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/User$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/User$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/User$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserAddress$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserAddress$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserAddress$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserAddress$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserAddress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserContact$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserContact$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserContact$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserContact$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserContact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserDemographics$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserDemographics$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserDemographics$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserDemographics$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserDemographics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserDemographics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserVoting$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserVoting$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserVoting$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserVoting$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserVoting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/domain/UserVoting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/CandidateFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/CandidateFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/ElectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/ElectionFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/ElectionResultFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/ElectionResultFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/PartyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/PartyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserAddressFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserAddressFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserContactFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserContactFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserDemographicsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserDemographicsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserVotingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/factory/UserVotingFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/util/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/util/Misc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/CandidateFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/CandidateFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/ElectionFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/ElectionFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/ElectionResultFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/ElectionResultFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/PartyFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/PartyFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserAddressFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserAddressFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserContactFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserContactFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserDemographicsFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserDemographicsFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserVotingFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/factory/UserVotingFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/PartyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/PartyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/PartyRepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/PartyRepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserAddressRepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserAddressRepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserContactRepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserContactRepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserDemographicsRepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserDemographicsRepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserRepImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserRepImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/PartyRepImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/PartyRepImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserAddressRepImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserAddressRepImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserContactRepImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserContactRepImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserDemographicsRepImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserDemographicsRepImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserRepImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserRepImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/PartyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/PartyRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/PartyRepImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ac/za/cput/repository/impl/PartyRepImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/PartyRepImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/PartyRepImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/UserAddressRepImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/UserAddressRepImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/UserContactRepImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/UserContactRepImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/UserDemographicsRepImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ac/za/cput/repository/impl/UserDemographicsRepImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,39 +70,41 @@
     <session id="-1978651332">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="50" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="140" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="50" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="140" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="5396" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="7183" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5396" />
+          <entry key="JAVA" value="7183" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -155,32 +114,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserDemographicsRepImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserDemographics.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserContactRepImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserDemographicsRepImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserAddressRepImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-281">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="75">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserRepImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,8 +157,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -208,25 +173,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserVotingFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserAddressFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserAddress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserDemographicsFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserVoting.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserVotingFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserDemographicsFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserAddressFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/ElectionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/Election.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/ElectionResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/ElectionResultFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/ElectionResultFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserRepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/RepInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/PartyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/Party.java" />
@@ -235,24 +186,44 @@
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/CandidateFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/ElectionFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/PartyFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/PartyRepImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/PartyRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserAddressRep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserAddressRepImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserAddressRepImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserRepImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/PartyRepImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserContactRep.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserContact.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserContactFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserContactFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserContactRepImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserContactRepImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserDemographicsRep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserDemographicsRepImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserDemographics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/ServiceInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/PartyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/PartyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserAddressService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserContactService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserDemographicsService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserRepImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/PartyRepImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/PartyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserAddressRepImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserContactRepImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserDemographicsRepImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserRepImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserAddressServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserContactServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserDemographicsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/PartyRepImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserDemographicsServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserContactServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserAddressServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/PartyServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserDemographicsRepImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserContactRepImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserAddressRepImplTest.java" />
       </list>
     </option>
   </component>
@@ -270,7 +241,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
+    <option name="x" value="7" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="821" />
@@ -283,7 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -322,43 +293,6 @@
               <item name="evoting" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cput" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evoting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cput" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evoting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cput" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evoting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cput" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evoting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -375,15 +309,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evoting" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cput" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="evoting" type="b2602c69:ProjectViewProjectNode" />
@@ -398,13 +323,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556469756356" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558276719474" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -417,6 +342,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ac.za.cput.service.impl" />
       <recent name="ac.za.cput.repository.impl" />
       <recent name="ac.za.cput.factory" />
     </key>
@@ -436,8 +362,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserDemographicsRepImplTest.read">
-    <configuration name="UserDemographicsRepImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserRepImplTest">
+    <configuration name="PartyRepImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="evoting" />
       <extension name="coverage">
         <pattern>
@@ -446,14 +372,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserDemographicsRepImplTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.PartyRepImplTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDemographicsRepImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserAddressRepImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="evoting" />
       <extension name="coverage">
         <pattern>
@@ -462,14 +386,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserDemographicsRepImplTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserAddressRepImplTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDemographicsRepImplTest.getRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserContactRepImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="evoting" />
       <extension name="coverage">
         <pattern>
@@ -478,14 +400,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserDemographicsRepImplTest" />
-      <option name="METHOD_NAME" value="getRepository" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserContactRepImplTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDemographicsRepImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDemographicsRepImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="evoting" />
       <extension name="coverage">
         <pattern>
@@ -495,13 +415,11 @@
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.repository.impl" />
       <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserDemographicsRepImplTest" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDemographicsRepImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="evoting" />
       <extension name="coverage">
         <pattern>
@@ -510,27 +428,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ac.za.cput.repository.impl" />
-      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserDemographicsRepImplTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ac.za.cput.repository.impl.UserRepImplTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserDemographicsRepImplTest.getRepository" />
-      <item itemvalue="JUnit.UserDemographicsRepImplTest.create" />
-      <item itemvalue="JUnit.UserDemographicsRepImplTest.update" />
-      <item itemvalue="JUnit.UserDemographicsRepImplTest.delete" />
-      <item itemvalue="JUnit.UserDemographicsRepImplTest.read" />
+      <item itemvalue="JUnit.PartyRepImplTest" />
+      <item itemvalue="JUnit.UserAddressRepImplTest" />
+      <item itemvalue="JUnit.UserContactRepImplTest" />
+      <item itemvalue="JUnit.UserDemographicsRepImplTest" />
+      <item itemvalue="JUnit.UserRepImplTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDemographicsRepImplTest.read" />
-        <item itemvalue="JUnit.UserDemographicsRepImplTest.delete" />
-        <item itemvalue="JUnit.UserDemographicsRepImplTest.update" />
-        <item itemvalue="JUnit.UserDemographicsRepImplTest.create" />
-        <item itemvalue="JUnit.UserDemographicsRepImplTest.getRepository" />
+        <item itemvalue="JUnit.UserRepImplTest" />
+        <item itemvalue="JUnit.UserDemographicsRepImplTest" />
+        <item itemvalue="JUnit.UserContactRepImplTest" />
+        <item itemvalue="JUnit.UserAddressRepImplTest" />
+        <item itemvalue="JUnit.PartyRepImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -551,43 +467,46 @@
       <workItem from="1556445951930" duration="174000" />
       <workItem from="1556446150197" duration="8308000" />
       <workItem from="1556466881301" duration="2310000" />
+      <workItem from="1556469786783" duration="14000" />
+      <workItem from="1556994780971" duration="13000" />
+      <workItem from="1558251707945" duration="10179000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 37m 16s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="UserDemographicsServiceImplTest - 2019.05.19 at 16h 29m 45s.xml">
+      <configuration name="UserDemographicsServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 38m 01s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest - 2019.05.19 at 16h 29m 59s.xml">
+      <configuration name="UserServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 38m 55s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="UserDemographicsServiceImplTest - 2019.05.19 at 16h 30m 11s.xml">
+      <configuration name="UserDemographicsServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 39m 10s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="UserContactServiceImplTest - 2019.05.19 at 16h 30m 18s.xml">
+      <configuration name="UserContactServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 40m 25s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="UserContactServiceImplTest - 2019.05.19 at 16h 30m 57s.xml">
+      <configuration name="UserContactServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 40m 40s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="UserContactServiceImplTest - 2019.05.19 at 16h 31m 24s.xml">
+      <configuration name="UserContactServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 41m 37s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="UserAddressServiceImplTest - 2019.05.19 at 16h 32m 08s.xml">
+      <configuration name="UserAddressServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_update - 2019.04.28 at 18h 41m 46s.xml">
-      <configuration name="UserDemographicsRepImplTest.update" configurationId="JUnit" />
+    <history-entry file="PartyServiceImplTest - 2019.05.19 at 16h 33m 15s.xml">
+      <configuration name="PartyServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_delete - 2019.04.28 at 18h 42m 09s.xml">
-      <configuration name="UserDemographicsRepImplTest.delete" configurationId="JUnit" />
+    <history-entry file="PartyServiceImplTest - 2019.05.19 at 16h 34m 03s.xml">
+      <configuration name="PartyServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDemographicsRepImplTest_read - 2019.04.28 at 18h 42m 33s.xml">
-      <configuration name="UserDemographicsRepImplTest.read" configurationId="JUnit" />
+    <history-entry file="PartyServiceImplTest - 2019.05.19 at 16h 34m 44s.xml">
+      <configuration name="PartyServiceImplTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22813000" />
+    <option name="totallyTimeSpent" value="33019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,18 +518,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="821" extended-state="0" />
+    <frame x="7" y="23" width="1400" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2827688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -618,8 +541,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32938388" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32921812" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32938388" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073636" side_tool="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32921812" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -664,110 +588,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evoting.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserVotingFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserVotingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserVoting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserDemographicsFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserDemographicsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/factory/UserAddressFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="116" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/Election.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/factory/ElectionResultFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/ElectionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/factory/ElectionResultFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -793,13 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="59" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -852,33 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/PartyRepImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/PartyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/factory/CandidateFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -886,76 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/RepInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/factory/UserAddressFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserAddressRep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserRepImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserAddressRepImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserRepImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/PartyRepImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserAddressRepImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,27 +704,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserDemographicsRep.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserDemographics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="495">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/ServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/RepInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/PartyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserContactRepImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserContactRepImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserAddressRep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="75">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserAddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1014,38 +769,264 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserContactRep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/domain/UserDemographics.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserContactService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/UserDemographicsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserDemographicsRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/PartyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/PartyRepImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserAddressRepImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserContactRepImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserDemographicsRepImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserRepImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/PartyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserContactServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserDemographicsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/PartyRepImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserDemographicsServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserContactServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/UserAddressServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/service/impl/UserAddressServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/service/impl/PartyServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserRepImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserDemographicsRepImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/za/cput/repository/impl/UserDemographicsRepImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserContactRepImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ac/za/cput/repository/impl/UserAddressRepImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
