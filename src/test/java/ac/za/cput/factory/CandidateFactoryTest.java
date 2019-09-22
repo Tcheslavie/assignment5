@@ -10,7 +10,7 @@ public class CandidateFactoryTest {
 
     @Test
     public void getCandidate() {
-        Candidate cf = CandidateFactory.getCandidate("1", "John", "Test", "1");
+        Candidate cf = CandidateFactory.getCandidate("John", "Test");
         Assert.assertNotNull(cf.getName());
     }
 }

@@ -4,8 +4,8 @@ import ac.za.cput.domain.Candidate;
 import ac.za.cput.domain.Election;
 
 public class ElectionFactory {
-    public static Election getElection(int year, Candidate...candidates)
+    public static Election getElection(int year)
     {
-        return new Election.Builder().year(year).candidates(candidates).build();
+        return new Election.Builder().year(year).build();
     }
 }

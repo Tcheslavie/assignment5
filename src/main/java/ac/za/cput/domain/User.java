@@ -6,7 +6,6 @@ import java.util.Objects;
 
 public class User {
     private String idnumber,uname,lname;
-    private List<UserVoting> votingRecord;
 
     public String getIdnumber(){
         return this.idnumber;
@@ -15,23 +14,17 @@ public class User {
         return this.uname+" "+this.lname;
     }
 
-    public List<UserVoting> getVotingRecord() {
-        return votingRecord;
-    }
 
     private User(){}
 
     private User(Builder builder)
     {
-        this.votingRecord = new ArrayList<>();
         this.idnumber = builder.idnumber;
         this.uname = builder.uname;
         this.lname = builder.lname;
-        this.votingRecord = builder.votingRecord;
     }
     public static class Builder{
         private String idnumber,uname,lname;
-        private List<UserVoting> votingRecord = new ArrayList<>();
 
         public Builder idnumber(String idnumber){
             this.idnumber = idnumber;
@@ -47,12 +40,6 @@ public class User {
             return this;
         }
 
-        public Builder votingRecord(UserVoting...votingRecord)
-        {
-            for(UserVoting r: votingRecord)
-                this.votingRecord.add(r);
-            return this;
-        }
 
         public User build(){
             return new User(this);

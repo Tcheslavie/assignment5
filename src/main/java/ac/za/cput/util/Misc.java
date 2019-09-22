@@ -1,12 +1,9 @@
 package ac.za.cput.util;
 
+import java.util.UUID;
+
 public class Misc {
-    public static long genId()
-    {
-        while (true) {
-            long numb = (long)(Math.random() * 100000000 * 1000000); // had to use this as int's are to small for a 13 digit number.
-            if (String.valueOf(numb).length() == 13)
-                return numb;
-        }
+    public static String randomUUID() {
+        return UUID.randomUUID().toString();
     }
 }

@@ -22,32 +22,25 @@ import static org.junit.Assert.*;
 public class PartyRepImplTest {
     @Autowired
     private PartyRepository repository;
-    private Candidate c;
 
     @Test
     public void b_getAll() {
         assertEquals(3, repository.getAll().size());
     }
 
-    /*@Test
-    public void findByName() {
-        create();
-        assertNotNull("DA", repository.findByName("DA"));
-    }*/
-
     @Test
     public void a_create() {
 
-        repository.create(PartyFactory.getParty("1", "ANC", c));
-        repository.create(PartyFactory.getParty("2", "DA", c));
-        repository.create(PartyFactory.getParty("3", "EFF", c));
+        repository.create(PartyFactory.getParty("ANC"));
+        repository.create(PartyFactory.getParty("DA"));
+        repository.create(PartyFactory.getParty("EFF"));
 
         Assert.assertEquals(3, repository.getAll().size());
     }
 
     @Test
     public void e_update() {
-        repository.update(PartyFactory.getParty("2", "FFP", c));
+        repository.update(PartyFactory.getParty("FFP"));
         Assert.assertEquals("FFP", repository.read("2").getName());
     }
 
@@ -59,7 +52,7 @@ public class PartyRepImplTest {
 
     @Test
     public void c_read() {
-        repository.create(PartyFactory.getParty("1", "ANC", c));
+        repository.create(PartyFactory.getParty("ANC"));
         Assert.assertNotNull(repository.read("1"));
     }
 }

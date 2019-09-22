@@ -22,7 +22,6 @@ import static org.junit.Assert.*;
 public class PartyServiceImplTest {
     @Autowired
     private PartyService service;
-    private Candidate c;
 
     @Test
     public void e_getAll() {
@@ -37,16 +36,16 @@ public class PartyServiceImplTest {
     @Test
     public void a_create() {
 
-        service.create(PartyFactory.getParty("1", "ANC", c));
-        service.create(PartyFactory.getParty("2", "DA", c));
-        service.create(PartyFactory.getParty("3", "EFF", c));
+        service.create(PartyFactory.getParty( "ANC"));
+        service.create(PartyFactory.getParty( "DA"));
+        service.create(PartyFactory.getParty( "EFF"));
 
         Assert.assertEquals(3, service.getAll().size());
     }
 
     @Test
     public void c_update() {
-        service.update(PartyFactory.getParty("2", "FFP", c));
+        service.update(PartyFactory.getParty( "FFP"));
         Assert.assertEquals("FFP", service.read("2").getName());
     }
 

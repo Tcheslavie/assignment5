@@ -7,7 +7,6 @@ import java.util.Objects;
 public class Party {
     private String partyId;
     private String name;
-    private List<Candidate> candidates;
 
     public String getPartyId() {
         return partyId;
@@ -17,24 +16,17 @@ public class Party {
         return name;
     }
 
-    public List<Candidate> getCandidates() {
-        return candidates;
-    }
 
     private Party(){}
     private Party(Builder builder)
     {
-        candidates = new ArrayList<>();
-
         this.partyId = builder.partyId;
         this.name = builder.name;
-        this.candidates = builder.candidates;
     }
 
     public static class Builder{
         private String partyId;
         private String name;
-        private List<Candidate> candidates = new ArrayList<>();
 
         public Builder partyId(String partyId)
         {
@@ -44,13 +36,6 @@ public class Party {
         public Builder name (String name)
         {
             this.name = name;
-            return this;
-        }
-        public Builder candidates(Candidate...candidates)
-        {
-            if(candidates!=null)
-                for(Candidate c: candidates)
-                    this.candidates.add(c);
             return this;
         }
         public Party build(){
