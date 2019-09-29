@@ -23,7 +23,7 @@ public class ApplicationSecurity extends WebSecurityConfigurerAdapter  {
                 .roles(USER_ROLE)
                 .and()
                 .withUser("admin")
-                .password(encoder().encode("wewin"))
+                .password(encoder().encode("admin"))
                 .roles(USER_ROLE, ADMIN_ROLE);
     }
 
