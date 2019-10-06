@@ -1,9 +1,14 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
 public class CandidateParty {
+    @Id
     String candidateId;
     String partyId;
 
+    private CandidateParty(){}
     public CandidateParty(String candidateId, String partyId) {
         this.candidateId = candidateId;
         this.partyId = partyId;

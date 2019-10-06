@@ -1,7 +1,12 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
 public class UserDemographics {
-    private String idnumber, gender, race;
+    @Id
+    private String idnumber;
+    private String gender, race;
 
     private UserDemographics(){}
     private UserDemographics(Builder builder)

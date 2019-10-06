@@ -2,23 +2,22 @@ package ac.za.cput.service.impl;
 
 import ac.za.cput.domain.Party;
 import ac.za.cput.repository.PartyRepository;
-import ac.za.cput.repository.impl.PartyRepImpl;
 import ac.za.cput.service.PartyService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
-@Service("PartyServiceImpl")
+@Service
 public class PartyServiceImpl implements PartyService {
 
     @Autowired
-    @Qualifier("PartyRep")
     private PartyRepository repository;
 
     @Override
-    public Set<Party> getAll() {
-        return this.repository.getAll();
+    public List<Party> getAll() {
+        return this.repository.findAll();
     }
 
     @Override
@@ -34,21 +33,23 @@ public class PartyServiceImpl implements PartyService {
 
     @Override
     public Party create(Party party) {
-        return this.repository.create(party);
+        return this.repository.save(party);
     }
 
     @Override
     public Party update(Party party) {
-        return this.repository.update(party);
+        return this.repository.save(party);
     }
 
     @Override
-    public boolean delete(String s) {
-        return this.repository.delete(s);
+    public void delete(Party s) {
+        this.repository.delete(s);
     }
 
     @Override
     public Party read(String s) {
-        return this.repository.read(s);
+
+        Optional<Party> opt = this.repository.findById(s);
+        return opt.orElse(null);
     }
 }

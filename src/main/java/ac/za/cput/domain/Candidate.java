@@ -1,6 +1,11 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Candidate {
+    @Id
     private String candidateId;
     private String fname, lname;
 

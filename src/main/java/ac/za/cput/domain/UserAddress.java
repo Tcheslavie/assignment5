@@ -1,7 +1,13 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class UserAddress {
-    private String idnumber, addrLine1, addrLine2, city, province;
+    @Id
+    private String idnumber;
+    private String addrLine1, addrLine2, city, province;
     private int postCode;
 
     private UserAddress(){};

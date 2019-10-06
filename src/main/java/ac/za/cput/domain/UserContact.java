@@ -1,7 +1,13 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class UserContact {
-    private String idNumber, cellPhone, workPhone, homePhone;
+    @Id
+    private String idNumber;
+    private String cellPhone, workPhone, homePhone;
 
     private UserContact(){};
     private UserContact(Builder builder)

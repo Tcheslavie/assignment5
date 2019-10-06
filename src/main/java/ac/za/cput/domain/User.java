@@ -1,11 +1,15 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-
+@Entity
 public class User {
-    private String idnumber,uname,lname;
+    @Id
+    private String idnumber;
+    private String uname,lname;
 
     public String getIdnumber(){
         return this.idnumber;

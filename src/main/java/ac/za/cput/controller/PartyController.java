@@ -24,7 +24,6 @@ import java.util.stream.Collectors;
 @RequestMapping("/party")
 public class PartyController {
     @Autowired
-    @Qualifier("PartyServiceImpl")
     private PartyService service;
 
     @Autowired
@@ -69,7 +68,7 @@ public class PartyController {
 
     @GetMapping("/read/all")
     public ResponseEntity getAll() {
-        Set<Party> parties = service.getAll();
+        List<Party> parties = service.getAll();
         return ResponseEntity.ok(parties);
     }
 }

@@ -1,10 +1,13 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-
+@Entity
 public class Party {
+    @Id
     private String partyId;
     private String name;
 

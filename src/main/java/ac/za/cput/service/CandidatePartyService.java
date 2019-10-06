@@ -2,12 +2,9 @@ package ac.za.cput.service;
 
 import ac.za.cput.domain.CandidateParty;
 
+import java.util.List;
 import java.util.Set;
 
-public interface CandidatePartyService {
-    CandidateParty create(CandidateParty cp);
-    CandidateParty update(CandidateParty cp);
-    CandidateParty read(CandidateParty cp);
-    boolean delete(CandidateParty cp);
-    Set<CandidateParty> getAll();
+public interface CandidatePartyService extends ServiceInterface<CandidateParty, String>{
+    List<CandidateParty> getAll();
 }

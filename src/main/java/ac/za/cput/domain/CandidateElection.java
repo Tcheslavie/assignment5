@@ -1,7 +1,13 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class CandidateElection {
-    private int year, candidateId;
+    private int year;
+    @Id
+    private String candidateId;
 
     private CandidateElection(){}
     private CandidateElection(Builder builder){
@@ -13,19 +19,20 @@ public class CandidateElection {
         return year;
     }
 
-    public int getCandidateId() {
+    public String getCandidateId() {
         return candidateId;
     }
 
     public static class Builder{
-        private int year, candidateId;
+        private int year;
+        private String candidateId;
 
         public Builder year(int year)
         {
             this.year = year;
             return this;
         }
-        public Builder candidateId(int candidateId)
+        public Builder candidateId(String candidateId)
         {
             this.candidateId = candidateId;
             return this;

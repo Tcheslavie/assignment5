@@ -1,6 +1,11 @@
 package ac.za.cput.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class UserVoting {
+    @Id
     private String idnumber;
     private int year, candidateId;
 

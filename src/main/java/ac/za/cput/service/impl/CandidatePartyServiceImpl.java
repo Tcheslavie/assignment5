@@ -2,10 +2,12 @@ package ac.za.cput.service.impl;
 
 import ac.za.cput.domain.CandidateParty;
 import ac.za.cput.repository.CandidatePartyRep;
-import ac.za.cput.repository.impl.CandidatePartyRepImpl;
 import ac.za.cput.service.CandidatePartyService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 @Service
@@ -16,36 +18,37 @@ public class CandidatePartyServiceImpl implements CandidatePartyService {
         return service;
     }
 
+    @Autowired
     private CandidatePartyRep repository;
 
     private CandidatePartyServiceImpl() {
-        this.repository = CandidatePartyRepImpl.getRepository();
     }
 
 
     @Override
     public CandidateParty create(CandidateParty cp) {
-        return this.repository.create(cp);
+        return this.repository.save(cp);
     }
 
     @Override
     public CandidateParty update(CandidateParty cp) {
-        return this.repository.update(cp);
+        return this.repository.save(cp);
     }
 
     @Override
-    public CandidateParty read(CandidateParty cp) {
-        return this.repository.read(cp);
+    public CandidateParty read(String s) {
+        Optional<CandidateParty> opt = this.repository.findById(s);
+        return opt.orElse(null);
     }
 
     @Override
-    public boolean delete(CandidateParty cp) {
-        return this.repository.delete(cp);
+    public void delete(CandidateParty s) {
+        this.repository.delete(s);
     }
+
 
     @Override
-    public Set<CandidateParty> getAll() {
-        return this.repository.getAll();
+    public List<CandidateParty> getAll() {
+        return this.repository.findAll();
     }
-
 }

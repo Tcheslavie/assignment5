@@ -13,22 +13,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Set;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
     @Autowired
-    @Qualifier("UserServiceImpl")
     private UserService service;
     @Autowired
-    @Qualifier("UserAddressServiceImpl")
     private UserAddressService addressService;
     @Autowired
-    @Qualifier("UserContactServiceImpl")
     private UserContactService contactService;
     @Autowired
-    @Qualifier("UserDemographicsServiceImpl")
     private UserDemographicsService demographService;
 
     @PostMapping("/create")
@@ -48,8 +45,9 @@ public class UserController {
 
     @GetMapping("/delete/{id}")
     @ResponseBody
-    public boolean delete(@PathVariable String id) {
-        return service.delete(id);
+    public void delete(@PathVariable String id) {
+        User u = service.read(id);
+        if(u != null) service.delete(u);
     }
 
     @GetMapping("/read/{id}")
@@ -60,7 +58,7 @@ public class UserController {
 
     @GetMapping("/read/all")
     @ResponseBody
-    public Set<User> getAll() {
+    public List<User> getAll() {
         return service.getAll();
     }
 
